@@ -21,7 +21,7 @@ stages:
     mavenExecuteStaticCodeChecks: false
     npmExecuteLint: false
 
-  Additional Unit Tests:
+  'Additional Unit Tests':
     npmExecuteScripts: false
     karmaExecuteTests: false
   Release: 
@@ -37,4 +37,4 @@ steps:
       appName: ""
       mtaDeployParameters: "-f --version-rule ALL"
       artfactPrepareVersion:
-      versioningType: "cloud_noTag"
+        versioningType: "cloud_noTag"
