@@ -13,7 +13,7 @@
 ### General project setup
 general:
   pipeline: "sap-cloud-sdk"
-  buildTool: "A simple CAP project."
+  buildTool: "mta"
   
 ### Stage-specific configuration
 stages:
