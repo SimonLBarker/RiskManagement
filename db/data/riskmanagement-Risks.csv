@@ -1,0 +1,4 @@
+ID;createdAt;createdBy;owner;title;prio;descr;miti_id;impact;bp_BusinessPartner
+20466922-7d57-4e76-b14c-e53fd97dcb11;2019-10-24;max.mustermann@muster.com;Fred;CFR non-compliance ;3;Recent restructuring might violate CFR code 71;20466921-7d57-4e76-b14c-e53fd97dcb11;10000;1000060
+20466922-7d57-4e76-b14c-e53fd97dcb12;2019-10-24;max.mustermann@muster.com;Jim;SLA violation with possible termination cause;2;Repeated SAL violation on service delivery for two successive quarters;20466921-7d57-4e76-b14c-e53fd97dcb12;90000;9980000336
+20466922-7d57-4e76-b14c-e53fd97dcb13;2019-10-24;max.mustermann@muster.com;George;Shipment violating export control;1;Violation of export and trade control with unauthorized downloads;20466921-7d57-4e76-b14c-e53fd97dcb13;200000;9980000770
