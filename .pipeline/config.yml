@@ -34,7 +34,7 @@ steps:
       org: "34270a2ctrial"
       space: "dev"
       credentialsId: "cfdeploy"
-      appName: ""
+      appName: "risk-management"
       mtaDeployParameters: "-f --version-rule ALL"
-      artfactPrepareVersion:
-        versioningType: "cloud_noTag"
+  artfactPrepareVersion:
+    versioningType: "cloud_noTag"
