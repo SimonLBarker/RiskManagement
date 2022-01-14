@@ -17,15 +17,16 @@ general:
   
 ### Stage-specific configuration
 stages:
-Build:
-  mavenExecuteStaticCodeChecks: false
-  npmExecuteLint: false
+  Build:
+    mavenExecuteStaticCodeChecks: false
+    npmExecuteLint: false
+
   Additional Unit Tests:
     npmExecuteScripts: false
     karmaExecuteTests: false
-Release: 
-  cloudFoundryDeploy: true
-  tmsUpload: false
+  Release: 
+    cloudFoundryDeploy: true
+    tmsUpload: false
 steps:
   cloudFoundryDeploy:
     cloudFoundry:
