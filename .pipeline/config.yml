@@ -37,4 +37,3 @@ steps:
       mtaDeployParameters: "-f --version-rule ALL"
       artfactPrepareVersion:
       versioningType: "cloud_noTag"
-      
